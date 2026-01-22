@@ -5,7 +5,18 @@ annotations:
     name: position
     value:
       56e98f33-c7c7-4ca9-8ef8-92459ce4df1e:
-        x: 87.5
-        y: 175
-name: browse
+        x: 45
+        y: 109
+name: users
 description: Description for new-state
+transitions:
+  - target: 9e0aa3ec-249b-3747-30fc-b51728973751
+    name: edit
+page:
+  type: formDesigner
+  id: e781f96e-352a-4292-b051-8bb717ddb39c
+  name: users
+  description: Description for new-state
+  template: quick-search
+  datasource: users
+  action: run
