@@ -1,11 +1,19 @@
 id: aed86c8e-4bc8-4bf1-b530-f8fb28ab1a80
 type: state
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    56e98f33-c7c7-4ca9-8ef8-92459ce4df1e:
-      x: 87.5
-      y: 175
+  - namespace: c4modeler
+    name: position
+    value:
+      56e98f33-c7c7-4ca9-8ef8-92459ce4df1e:
+        x: 87.5
+        y: 175
 name: browse
 description: Description for new-state
+page:
+  type: formDesigner
+  id: f282fdbb-6b4e-4b25-a51e-1dce8fc78bdd
+  name: browse
+  description: Description for new-state
+  template: quick-search
+  datasource: users
+  action: run
