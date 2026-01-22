@@ -1,0 +1,26 @@
+id: 2a5e6f59-b0e4-45c1-849d-0317c8982eda
+type: datasource
+name: NewEntityDatasource
+description: Datasource for managing New Entity
+rootEntity: NewEntity
+mode: ReadWrite
+includeAllFields: true
+allowPersistence: true
+fields:
+- name: invoiceRows
+  type: InvoiceRowEntity
+  isArray: true
+  isOptional: true
+  includeAllFields: true
+  allowPersistence: true
+  fields:
+  - name: product
+    type: ProductEntity
+    isArray: false
+    includeAllFields: false
+    isOptional: true
+    fields:
+    - name: name
+    - name: description
+    - name: suggestedPrice
+    - name: availableItems
