@@ -9,11 +9,3 @@ annotations:
         y: 175
 name: browse
 description: Description for new-state
-page:
-  type: formDesigner
-  id: 82056d47-031a-429e-9a0a-994d721ccc3f
-  name: browse
-  description: Description for new-state
-  template: quick-search
-  datasource: users
-  action: run
