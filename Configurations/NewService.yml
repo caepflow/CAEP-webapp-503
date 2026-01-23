@@ -1,29 +1,29 @@
 id: 8cb7468e-e6ed-4647-824b-7e6634b24fd9
 type: service
 interactions:
-- targetId: 1e266c31-85f6-4694-b815-6372cc862fa6
-  type: database
-  level: container
+  - targetId: 1e266c31-85f6-4694-b815-6372cc862fa6
+    type: database
+    level: container
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    f4eba468-7a9c-40b7-bfaa-870d8092e0dc:
+  - namespace: c4modeler
+    name: position
+    value:
+      f4eba468-7a9c-40b7-bfaa-870d8092e0dc:
+        x: 420
+        y: 331.5
+      a0aabaf7-ca5c-4bce-9ceb-30c195310d30:
+        x: 252
+        y: 422
+      ed347376-4a72-474c-9034-e64ba4c6736b:
+        x: 420
+        y: 419.5
+  - namespace: c4modeler
+    name: boundary
+    value:
       x: 420
-      y: 331.5
-    a0aabaf7-ca5c-4bce-9ceb-30c195310d30:
-      x: 252
-      y: 422
-    ed347376-4a72-474c-9034-e64ba4c6736b:
-      x: 420
-      y: 419.5
-- namespace: c4modeler
-  name: boundary
-  value:
-    x: 421.5
-    y: 251.5
-    width: 843
-    height: 503
+      y: 250.5
+      width: 840
+      height: 501
 target:
   framework: net
   version: 9
@@ -34,11 +34,11 @@ namespace: Ca.CaepFlow.Service
 data:
   orm: EntityFrameworkCore
 children:
-- id: 79b20700-c85a-46e9-bdf0-ceb4e6e01caf
-  type: controller
-- id: 87d16146-e3e2-403f-9a83-a8167febb7e1
-  type: contracts
-- id: f59fb625-4103-4ce5-a555-d36af4473b4d
-  type: data
-- id: 8f5eee3d-457e-47e2-8f7a-14c2d7355409
-  type: datasources
+  - id: 79b20700-c85a-46e9-bdf0-ceb4e6e01caf
+    type: controller
+  - id: 87d16146-e3e2-403f-9a83-a8167febb7e1
+    type: contracts
+  - id: f59fb625-4103-4ce5-a555-d36af4473b4d
+    type: data
+  - id: 8f5eee3d-457e-47e2-8f7a-14c2d7355409
+    type: datasources
