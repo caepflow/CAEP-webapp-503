@@ -7,20 +7,17 @@ mode: ReadWrite
 includeAllFields: true
 allowPersistence: true
 fields:
-- name: invoiceRows
-  type: InvoiceRowEntity
-  isArray: true
-  isOptional: true
-  includeAllFields: true
-  allowPersistence: true
-  fields:
-  - name: product
-    type: ProductEntity
-    isArray: false
-    includeAllFields: false
-    isOptional: true
+  - name: invoiceRows
+    type: InvoiceRowEntity
+    includeAllFields: true
+    allowPersistence: true
     fields:
-    - name: name
-    - name: description
-    - name: suggestedPrice
-    - name: availableItems
+      - name: product
+        type: ProductEntity
+        includeAllFields: false
+        allowPersistence: false
+        fields:
+          - name: name
+          - name: description
+          - name: suggestedPrice
+          - name: availableItems
