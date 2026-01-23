@@ -12,3 +12,11 @@ description: Description for new-state
 transitions:
   - target: 9e0aa3ec-249b-3747-30fc-b51728973751
     name: edit
+page:
+  type: formDesigner
+  id: d1ab12aa-9716-4acc-b323-e07ddf7c772b
+  name: users
+  description: Description for new-state
+  template: ai
+  datasource: users
+  action: run
