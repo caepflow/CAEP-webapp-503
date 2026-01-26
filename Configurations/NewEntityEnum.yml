@@ -13,8 +13,4 @@ enumeratorList:
   - description: New Enum Identifier
     name: Default
 description: Enum example
-associations:
-  - target:
-      entity: ec994402-10dc-4dcf-9ce1-b67692a86bf7
-    type: associate
-    multiplicity: one-to-many
+associations: []
