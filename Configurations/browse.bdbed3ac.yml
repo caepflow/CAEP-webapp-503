@@ -17,6 +17,6 @@ page:
   id: d1ab12aa-9716-4acc-b323-e07ddf7c772b
   name: users
   description: Description for new-state
-  template: ai
+  template: quick-search
   datasource: users
   action: run
