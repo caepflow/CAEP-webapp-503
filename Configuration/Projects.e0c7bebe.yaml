@@ -1,0 +1,10 @@
+id: e0c7bebe-560c-4a89-a9e2-1b57828036d7
+type: datasource
+name: Projects
+description: Projects
+mode: ReadWrite
+rootEntity: RootEntity
+includeAllFields: true
+allowPersistence: false
+fields: []
+pageSize: 25

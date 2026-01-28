@@ -21,3 +21,10 @@ fields:
           - name: description
           - name: suggestedPrice
           - name: availableItems
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      8f5eee3d-457e-47e2-8f7a-14c2d7355409:
+        x: 90
+        y: 58
